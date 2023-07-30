@@ -2,7 +2,7 @@ import socket
 import hashlib
 import os
 # Author: Abdulkareem Alnoaman
-# Date: 07/29/2023
+# Date: 07/30/2023
 # Course: CYBR 432 - Cryptography for Cybersecurity Practitioners
 # Program: Final Project - Hashing Application [Step-5]
 
