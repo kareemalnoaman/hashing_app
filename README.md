@@ -24,7 +24,7 @@ The application can also verify the user's password against the stored hash.
 The application can be used in two modes: generate and verify. The default mode is to generates hash for a user's password.
 To use the application in generate mode, the following command can be used:
 ```
-python3 hash_app.py -m generate -a sha256 -s "Hello World"
+python3 hashing_app.py -m generate -a sha256 -s "Hello World"
 ```
 The above command will generate a sha256 hash for the string "Hello World". The output will be as follows:
 ```
@@ -32,7 +32,7 @@ Hash:  2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e730
 ```
 To use the application in verify mode, the following command can be used:
 ```
-python3 hash_app.py -m verify -a sha256 -s "Hello World" -H 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e730
+python3 hashing_app.py -m verify -a sha256 -s "Hello World" -H 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e730
 ```
 The above command will verify that the hash 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e730 is indeed the hash for the string "Hello World". The output will be as follows:
 ```
