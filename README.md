@@ -8,6 +8,10 @@
 
 ### Description {#description-002}
 
+The main purpose of this application is to demonstrate the use of the hashlib library in python.
+The application can store the user's username and password in a file. The password is stored as a hash.
+The application can also verify the user's password against the stored hash.
+
 This is a simple application that can be used to generate hashes for a given string. 
 The application can also be used to verify a given hash against a given string.
 The application can be used to generate hashes for the following algorithms:
@@ -15,10 +19,6 @@ The application can be used to generate hashes for the following algorithms:
 - sha512
 - sha3_256
 - sha3_512
-
-The main purpose of this application is to demonstrate the use of the hashlib library in python.
-The application can store the user's username and password in a file. The password is stored as a hash.
-The application can also verify the user's password against the stored hash.
 
 ### Usage {#usage-003}
 The application can be used in two modes: generate and verify. The default mode is to generates hash for a user's password.

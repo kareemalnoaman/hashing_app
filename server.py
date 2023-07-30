@@ -10,12 +10,11 @@ import os
 # from a client and stores them in a file.
 # The server also hashes the password before storing it in the file.
 # The server sends a response to the client after receiving the credentials.
-# The server is listening on port 8080.
 
 host = 'localhost'
 port = 8080
 
-# s_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# creating a client's socket object
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 def start_server():
     server_socket.bind((host, port))
